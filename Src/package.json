@@ -1,0 +1,18 @@
+{
+  "name": "fog-computing-app",
+  "version": "0.0.1",
+  "description": "An example use case for fog computing using ZeroMQ as communication layer.",
+  "main": "app.js",
+  "scripts": {
+    "client": "NODE_ENV=client node app.js",
+    "server": "NODE_ENV=server node app.js"
+  },
+  "author": "Langleu",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "tinkerforge": "^2.1.22",
+    "zeromq": "^5.1.0"
+  }
+}
